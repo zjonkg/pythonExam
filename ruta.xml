@@ -1110,8 +1110,6 @@
   </options>
   <answer>A</answer>
 </question>
-
-  <questions>
   <question>
     <text>¿Qué función de pandas se usa para combinar dos DataFrames basados en el índice?</text>
     <options>
@@ -1661,8 +1659,7 @@
     </options>
     <answer>A</answer>
   </question>
-</questions>
-<questions>
+
     <question>
         <text>¿Qué hace la función os.makedirs() en Python?</text>
         <options>
@@ -1903,6 +1900,704 @@
         </options>
         <answer>A</answer>
     </question>
-</questions>
-
+    <question>
+    <text>¿Qué es un archivo CSV?</text>
+    <options>
+      <option>A) Un archivo de texto que utiliza comas para separar valores.</option>
+      <option>B) Un archivo binario utilizado para almacenar datos.</option>
+      <option>C) Un archivo de imagen en formato comprimido.</option>
+      <option>D) Un archivo ejecutable para programas.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué método se utiliza para leer un archivo XML en Python?</text>
+    <options>
+      <option>A) ElementTree.parse()</option>
+      <option>B) json.load()</option>
+      <option>C) csv.reader()</option>
+      <option>D) os.read()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué tipo de archivo es más adecuado para almacenar datos tabulares?</text>
+    <options>
+      <option>A) XML</option>
+      <option>B) JSON</option>
+      <option>C) CSV</option>
+      <option>D) TXT</option>
+    </options>
+    <answer>C</answer>
+  </question>
+  <question>
+    <text>¿Qué función de os se usa para crear un nuevo directorio en Python?</text>
+    <options>
+      <option>A) os.create()</option>
+      <option>B) os.makedir()</option>
+      <option>C) os.makedirs()</option>
+      <option>D) os.mkdir()</option>
+    </options>
+    <answer>D</answer>
+  </question>
+  <question>
+    <text>¿Qué función de pandas se utiliza para calcular la media de un grupo de datos?</text>
+    <options>
+      <option>A) sum()</option>
+      <option>B) mean()</option>
+      <option>C) count()</option>
+      <option>D) max()</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Cuál es la extensión de un archivo CSV?</text>
+    <options>
+      <option>A) .csv</option>
+      <option>B) .json</option>
+      <option>C) .xml</option>
+      <option>D) .txt</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace la función os.path.join() en Python?</text>
+    <options>
+      <option>A) Une componentes de una ruta.</option>
+      <option>B) Crea un nuevo archivo.</option>
+      <option>C) Elimina un archivo.</option>
+      <option>D) Copia un archivo.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué tipo de archivo usa la función read_csv() de pandas?</text>
+    <options>
+      <option>A) JSON</option>
+      <option>B) CSV</option>
+      <option>C) XML</option>
+      <option>D) TXT</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Cuál es la diferencia entre json.load() y json.loads()?</text>
+    <options>
+      <option>A) json.load() se usa para cadenas, json.loads() para archivos.</option>
+      <option>B) json.load() se usa para archivos, json.loads() para cadenas.</option>
+      <option>C) json.load() se usa para leer, json.loads() para escribir.</option>
+      <option>D) No hay diferencia.</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método csv.writer() en Python?</text>
+    <options>
+      <option>A) Lee un archivo CSV.</option>
+      <option>B) Escribe datos en un archivo CSV.</option>
+      <option>C) Elimina un archivo CSV.</option>
+      <option>D) Combina dos archivos CSV.</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Cuál de las siguientes opciones es un módulo estándar de Python para el manejo de archivos?</text>
+    <options>
+      <option>A) json</option>
+      <option>B) csv</option>
+      <option>C) os</option>
+      <option>D) Todas las anteriores.</option>
+    </options>
+    <answer>D</answer>
+  </question>
+  <question>
+    <text>¿Qué método de os se utiliza para obtener la ruta absoluta del directorio actual?</text>
+    <options>
+      <option>A) os.path.abspath()</option>
+      <option>B) os.getcwd()</option>
+      <option>C) os.path.curdir()</option>
+      <option>D) os.path.abspathdir()</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Qué función en pandas se usa para escribir un archivo CSV?</text>
+    <options>
+      <option>A) to_csv()</option>
+      <option>B) write_csv()</option>
+      <option>C) save_csv()</option>
+      <option>D) csv_writer()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué es un objeto DataFrame en pandas?</text>
+    <options>
+      <option>A) Una matriz de datos multidimensional.</option>
+      <option>B) Una estructura de datos tabular con etiquetas en filas y columnas.</option>
+      <option>C) Un archivo CSV cargado en memoria.</option>
+      <option>D) Una base de datos relacional.</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Qué método de pandas se utiliza para combinar dos DataFrames basados en columnas?</text>
+    <options>
+      <option>A) merge()</option>
+      <option>B) concat()</option>
+      <option>C) join()</option>
+      <option>D) groupby()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Cuál es el propósito del módulo os en Python?</text>
+    <options>
+      <option>A) Manipulación de archivos y directorios.</option>
+      <option>B) Creación de interfaces gráficas.</option>
+      <option>C) Conexión a bases de datos.</option>
+      <option>D) Manipulación de imágenes.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué módulo de Python se utiliza para manejar archivos JSON?</text>
+    <options>
+      <option>A) os</option>
+      <option>B) json</option>
+      <option>C) csv</option>
+      <option>D) xml</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Qué hace la función os.path.exists()?</text>
+    <options>
+      <option>A) Verifica si un archivo o directorio existe en la ruta especificada.</option>
+      <option>B) Crea un nuevo archivo en la ruta especificada.</option>
+      <option>C) Copia un archivo a una nueva ubicación.</option>
+      <option>D) Elimina un archivo de la ruta especificada.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué extensión se usa comúnmente para un archivo JSON?</text>
+    <options>
+      <option>A) .csv</option>
+      <option>B) .json</option>
+      <option>C) .xml</option>
+      <option>D) .txt</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Qué método de os se utiliza para eliminar un directorio vacío en Python?</text>
+    <options>
+      <option>A) os.rmdir()</option>
+      <option>B) os.remove()</option>
+      <option>C) os.unlink()</option>
+      <option>D) os.removedir()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué método de pandas se utiliza para sumar los valores de un grupo de datos?</text>
+    <options>
+      <option>A) mean()</option>
+      <option>B) sum()</option>
+      <option>C) count()</option>
+      <option>D) max()</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método json.dumps() en Python?</text>
+    <options>
+      <option>A) Escribe un objeto Python en un archivo JSON.</option>
+      <option>B) Carga un archivo JSON en un objeto Python.</option>
+      <option>C) Convierte un objeto Python en una cadena JSON.</option>
+      <option>D) Convierte una cadena JSON en un objeto Python.</option>
+    </options>
+    <answer>C</answer>
+  </question>
+  <question>
+    <text>¿Qué módulo de Python se usa para trabajar con archivos XML?</text>
+    <options>
+      <option>A) json</option>
+      <option>B) ElementTree</option>
+      <option>C) csv</option>
+      <option>D) os</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método os.makedirs() en Python?</text>
+    <options>
+      <option>A) Crea un directorio y sus subdirectorios.</option>
+      <option>B) Elimina un directorio.</option>
+      <option>C) Cambia el nombre de un directorio.</option>
+      <option>D) Copia un directorio.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Cuál es la función principal de la librería pandas?</text>
+    <options>
+      <option>A) Trabajar con gráficos.</option>
+      <option>B) Manipular datos tabulares.</option>
+      <option>C) Crear bases de datos.</option>
+      <option>D) Generar informes en PDF.</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Qué método se usa en pandas para calcular el valor máximo de un grupo de datos?</text>
+    <options>
+      <option>A) max()</option>
+      <option>B) sum()</option>
+      <option>C) mean()</option>
+      <option>D) count()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace la función json.load() en Python?</text>
+    <options>
+      <option>A) Lee datos JSON de un archivo y los convierte en un objeto Python.</option>
+      <option>B) Escribe un objeto Python en un archivo JSON.</option>
+      <option>C) Convierte una cadena JSON en un objeto Python.</option>
+      <option>D) Convierte un objeto Python en una cadena JSON.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué módulo de Python se usa para manipular rutas de archivos?</text>
+    <options>
+      <option>A) json</option>
+      <option>B) csv</option>
+      <option>C) os</option>
+      <option>D) pandas</option>
+    </options>
+    <answer>C</answer>
+  </question>
+  <question>
+    <text>¿Qué función de os se usa para combinar varias rutas en Python?</text>
+    <options>
+      <option>A) os.path.exists()</option>
+      <option>B) os.path.join()</option>
+      <option>C) os.path.split()</option>
+      <option>D) os.path.combine()</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Qué es un archivo XML?</text>
+    <options>
+      <option>A) Un archivo de texto que utiliza etiquetas para definir la estructura de los datos.</option>
+      <option>B) Un archivo binario que almacena datos de forma eficiente.</option>
+      <option>C) Un archivo de imagen en formato comprimido.</option>
+      <option>D) Un archivo ejecutable para programas.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué método de pandas se usa para agrupar datos en un DataFrame?</text>
+    <options>
+      <option>A) groupby()</option>
+      <option>B) merge()</option>
+      <option>C) join()</option>
+      <option>D) concat()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Cuál de los siguientes módulos se usa para manejar archivos en Python?</text>
+    <options>
+      <option>A) json</option>
+      <option>B) csv</option>
+      <option>C) os</option>
+      <option>D) Todas las anteriores.</option>
+    </options>
+    <answer>D</answer>
+  </question>
+  <question>
+    <text>¿Qué función en pandas se usa para contar el número de elementos en un grupo de datos?</text>
+    <options>
+      <option>A) sum()</option>
+      <option>B) count()</option>
+      <option>C) max()</option>
+      <option>D) mean()</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Qué extensión se usa comúnmente para un archivo CSV?</text>
+    <options>
+      <option>A) .csv</option>
+      <option>B) .json</option>
+      <option>C) .xml</option>
+      <option>D) .txt</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué módulo en Python se usa para trabajar con archivos de texto?</text>
+    <options>
+      <option>A) os</option>
+      <option>B) json</option>
+      <option>C) io</option>
+      <option>D) csv</option>
+    </options>
+    <answer>C</answer>
+  </question>
+  <question>
+    <text>¿Qué función de os se utiliza para eliminar un archivo en Python?</text>
+    <options>
+      <option>A) os.remove()</option>
+      <option>B) os.delete()</option>
+      <option>C) os.unlink()</option>
+      <option>D) os.erase()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método csv.DictReader en Python?</text>
+    <options>
+      <option>A) Lee un archivo CSV y devuelve un diccionario por cada fila.</option>
+      <option>B) Escribe un diccionario en un archivo CSV.</option>
+      <option>C) Lee un archivo CSV y devuelve una lista de listas.</option>
+      <option>D) Combina dos archivos CSV.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué función de pandas se utiliza para calcular la media de los valores en un DataFrame?</text>
+    <options>
+      <option>A) mean()</option>
+      <option>B) sum()</option>
+      <option>C) count()</option>
+      <option>D) max()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué módulo de Python se usa para trabajar con archivos JSON?</text>
+    <options>
+      <option>A) os</option>
+      <option>B) json</option>
+      <option>C) csv</option>
+      <option>D) io</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método json.loads() en Python?</text>
+    <options>
+      <option>A) Convierte una cadena JSON en un objeto Python.</option>
+      <option>B) Escribe un objeto Python en un archivo JSON.</option>
+      <option>C) Convierte un objeto Python en una cadena JSON.</option>
+      <option>D) Lee un archivo JSON y lo convierte en un objeto Python.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué módulo de Python se utiliza para trabajar con archivos de texto?</text>
+    <options>
+      <option>A) io</option>
+      <option>B) csv</option>
+      <option>C) os</option>
+      <option>D) json</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método os.rmdir() en Python?</text>
+    <options>
+      <option>A) Elimina un directorio vacío.</option>
+      <option>B) Elimina un archivo.</option>
+      <option>C) Cambia el nombre de un directorio.</option>
+      <option>D) Copia un directorio.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué función de pandas se usa para ordenar un DataFrame por valores?</text>
+    <options>
+      <option>A) sort_values()</option>
+      <option>B) order_by()</option>
+      <option>C) arrange()</option>
+      <option>D) filter()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué función de pandas se usa para filtrar datos en un DataFrame?</text>
+    <options>
+      <option>A) filter()</option>
+      <option>B) select()</option>
+      <option>C) where()</option>
+      <option>D) query()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace la función os.getcwd() en Python?</text>
+    <options>
+      <option>A) Devuelve el directorio de trabajo actual.</option>
+      <option>B) Cambia el directorio de trabajo.</option>
+      <option>C) Crea un nuevo directorio.</option>
+      <option>D) Elimina un directorio.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué función de pandas se usa para renombrar columnas en un DataFrame?</text>
+    <options>
+      <option>A) rename()</option>
+      <option>B) change_names()</option>
+      <option>C) set_names()</option>
+      <option>D) update_columns()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué función de pandas se usa para unir dos DataFrames?</text>
+    <options>
+      <option>A) merge()</option>
+      <option>B) join()</option>
+      <option>C) concat()</option>
+      <option>D) combine()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace la función json.dumps() en Python?</text>
+    <options>
+      <option>A) Convierte un objeto Python en una cadena JSON.</option>
+      <option>B) Escribe un objeto Python en un archivo JSON.</option>
+      <option>C) Lee un archivo JSON y lo convierte en un objeto Python.</option>
+      <option>D) Convierte una cadena JSON en un objeto Python.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué función de pandas se usa para leer un archivo CSV?</text>
+    <options>
+      <option>A) read_csv()</option>
+      <option>B) load_csv()</option>
+      <option>C) open_csv()</option>
+      <option>D) fetch_csv()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué método de pandas se usa para eliminar filas con valores nulos en un DataFrame?</text>
+    <options>
+      <option>A) dropna()</option>
+      <option>B) remove_nulls()</option>
+      <option>C) delete_na()</option>
+      <option>D) clean_data()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método csv.writer() en Python?</text>
+    <options>
+      <option>A) Lee un archivo CSV.</option>
+      <option>B) Escribe datos en un archivo CSV.</option>
+      <option>C) Elimina un archivo CSV.</option>
+      <option>D) Combina dos archivos CSV.</option>
+    </options>
+    <answer>B</answer>
+  </question>
+  <question>
+    <text>¿Qué método se usa en pandas para obtener una vista rápida de los datos en un DataFrame?</text>
+    <options>
+      <option>A) head()</option>
+      <option>B) sample()</option>
+      <option>C) overview()</option>
+      <option>D) display()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué función de pandas se utiliza para contar el número de elementos en un DataFrame?</text>
+    <options>
+      <option>A) count()</option>
+      <option>B) sum()</option>
+      <option>C) total()</option>
+      <option>D) aggregate()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué módulo de Python se usa para manejar archivos de texto?</text>
+    <options>
+      <option>A) io</option>
+      <option>B) csv</option>
+      <option>C) os</option>
+      <option>D) json</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método os.path.isfile() en Python?</text>
+    <options>
+      <option>A) Verifica si la ruta especificada es un archivo.</option>
+      <option>B) Verifica si la ruta especificada es un directorio.</option>
+      <option>C) Elimina un archivo de la ruta especificada.</option>
+      <option>D) Crea un nuevo archivo en la ruta especificada.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué función de pandas se usa para obtener la información general de un DataFrame?</text>
+    <options>
+      <option>A) info()</option>
+      <option>B) describe()</option>
+      <option>C) summary()</option>
+      <option>D) overview()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método os.mkdir() en Python?</text>
+    <options>
+      <option>A) Crea un nuevo directorio.</option>
+      <option>B) Elimina un directorio.</option>
+      <option>C) Cambia el nombre de un directorio.</option>
+      <option>D) Copia un directorio.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método csv.reader() en Python?</text>
+    <options>
+      <option>A) Lee un archivo CSV y devuelve una lista de listas.</option>
+      <option>B) Escribe datos en un archivo CSV.</option>
+      <option>C) Elimina un archivo CSV.</option>
+      <option>D) Combina dos archivos CSV.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué función de pandas se usa para calcular la desviación estándar de un grupo de datos?</text>
+    <options>
+      <option>A) std()</option>
+      <option>B) variance()</option>
+      <option>C) deviation()</option>
+      <option>D) mean()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método os.path.split() en Python?</text>
+    <options>
+      <option>A) Divide una ruta en su nombre de directorio y su nombre de archivo.</option>
+      <option>B) Combina dos rutas.</option>
+      <option>C) Obtiene la extensión de un archivo.</option>
+      <option>D) Verifica si la ruta especificada es un archivo o directorio.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace la función json.dumps() en Python?</text>
+    <options>
+      <option>A) Convierte un objeto Python en una cadena JSON.</option>
+      <option>B) Lee un archivo JSON y lo convierte en un objeto Python.</option>
+      <option>C) Convierte una cadena JSON en un objeto Python.</option>
+      <option>D) Escribe un objeto Python en un archivo JSON.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué función de pandas se usa para eliminar duplicados en un DataFrame?</text>
+    <options>
+      <option>A) drop_duplicates()</option>
+      <option>B) remove_duplicates()</option>
+      <option>C) unique()</option>
+      <option>D) delete_duplicates()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método os.rename() en Python?</text>
+    <options>
+      <option>A) Cambia el nombre de un archivo o directorio.</option>
+      <option>B) Copia un archivo a otra ubicación.</option>
+      <option>C) Elimina un archivo.</option>
+      <option>D) Mueve un archivo a otra ubicación.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué función de pandas se usa para obtener estadísticas descriptivas de un DataFrame?</text>
+    <options>
+      <option>A) describe()</option>
+      <option>B) summary()</option>
+      <option>C) stats()</option>
+      <option>D) info()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método os.path.getsize() en Python?</text>
+    <options>
+      <option>A) Devuelve el tamaño de un archivo en bytes.</option>
+      <option>B) Devuelve el tamaño de un directorio.</option>
+      <option>C) Elimina un archivo.</option>
+      <option>D) Cambia el nombre de un archivo.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace la función os.path.abspath() en Python?</text>
+    <options>
+      <option>A) Devuelve la ruta absoluta de un archivo o directorio.</option>
+      <option>B) Cambia el nombre de un archivo.</option>
+      <option>C) Elimina un archivo.</option>
+      <option>D) Crea un nuevo directorio.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método pandas.DataFrame.loc[]?</text>
+    <options>
+      <option>A) Selecciona filas y columnas en un DataFrame.</option>
+      <option>B) Modifica los valores en un DataFrame.</option>
+      <option>C) Elimina filas en un DataFrame.</option>
+      <option>D) Agrupa datos en un DataFrame.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué método se usa en pandas para obtener la cantidad de filas en un DataFrame?</text>
+    <options>
+      <option>A) shape()</option>
+      <option>B) count()</option>
+      <option>C) size()</option>
+      <option>D) length()</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método os.path.isdir() en Python?</text>
+    <options>
+      <option>A) Verifica si la ruta especificada es un directorio.</option>
+      <option>B) Verifica si la ruta especificada es un archivo.</option>
+      <option>C) Elimina un directorio.</option>
+      <option>D) Crea un nuevo directorio.</option>
+    </options>
+    <answer>A</answer>
+  </question>
+  <question>
+    <text>¿Qué hace el método pandas.DataFrame.iloc[]?</text>
+    <options>
+      <option>A) Selecciona filas y columnas por índice en un DataFrame.</option>
+      <option>B) Modifica los valores en un DataFrame.</option>
+      <option>C) Elimina filas en un DataFrame.</option>
+      <option>D) Agrupa datos en un DataFrame.</option>
+    </options>
+    <answer>A</answer>
+  </question>
 </quiz>
